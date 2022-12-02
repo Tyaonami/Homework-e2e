@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-projec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tatiana Mikhina",
+  "license": "MIT",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^1.0.5",
+    "@wdio/cli": "^7.25.4",
+    "@wdio/cucumber-framework": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "chromedriver": "^107.0.3",
+    "wdio-chromedriver-service": "^8.0.0",
+    "wdio-wait-for": "^3.0.0"
+  },
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  }
+}
