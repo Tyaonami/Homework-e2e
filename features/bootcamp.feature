@@ -7,7 +7,7 @@ Feature: Bootcamp E2E
 
     Scenario: Search bar
        
-      When Entry the word "Apple" in the search bar 
+      When Entry the word "Windows" in the search bar 
       And Click the search
       Then Check that at least one item appears
 
